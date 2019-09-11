@@ -16,7 +16,7 @@ function cors() {
       document.getElementById("demo").innerHTML = alert(this.responseText);
     }
   };
-  xhttp.open("GET", "https://trello.com/1/authentication", true);
+  xhttp.open("GET", "https://trello.com/1/member/me?fields=id,aaId,email,aaEmail,isAaMastered,fullName&enterprises=true&enterprise_filter=owned&enterprise_fields=id,displayName,accessEnabled&logins=true", true);
   xhttp.withCredentials = true;
   xhttp.send();
 }
