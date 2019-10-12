@@ -16,7 +16,7 @@ function cors() {
       document.getElementById("demo").innerHTML = alert(this.responseText);
     }
   };
-  xhttp.open("GET", "https://api.dev.lifeomic.com/v1/user/", true);
+  xhttp.open("GET", "https://apps.us.lifeomic.com/api/v1/genomics/projects/34c0fb25-bbde-4eb1-87ed-dd4c7a1ac013/tests/febc2833-9c3f-4751-b39e-e85c751fe544/summary", true);
   xhttp.withCredentials = true;
   xhttp.send();
 }
