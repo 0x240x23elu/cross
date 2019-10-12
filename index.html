@@ -16,7 +16,7 @@ function cors() {
       document.getElementById("demo").innerHTML = alert(this.responseText);
     }
   };
-  xhttp.open("GET", "https://api.dev.lifeomic.com/v1/user", true);
+  xhttp.open("GET", "https://api.dev.lifeomic.com/v1/user/", true);
   xhttp.withCredentials = true;
   xhttp.send();
 }
