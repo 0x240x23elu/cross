@@ -16,7 +16,7 @@ function cors() {
       document.getElementById("demo").innerHTML = alert(this.responseText);
     }
   };
-  xhttp.open("GET", "https://apps.us.lifeomic.com/api/v1/knowledge/gene-sets?datasetId=34c0fb25-bbde-4eb1-87ed-dd4c7a1ac013&pageSize=100", true);
+  xhttp.open("GET", "https://manage.grabtaxi.com/api/hub/v1/me", true);
   xhttp.withCredentials = true;
   xhttp.send();
 }
